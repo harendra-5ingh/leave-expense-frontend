@@ -1,0 +1,107 @@
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.pageHeader h2 { font-size: 22px; font-weight: 700; }
+
+.sub {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 8px 0;
+  margin-bottom: 20px;
+}
+
+.empty {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.muted { color: var(--text-muted); }
+
+.truncate {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.field { margin-bottom: 14px; }
+
+.row { display: flex; gap: 14px; }
+.row .field { flex: 1; }
+
+.btnPrimary {
+  background: #4f7ef8;
+  color: #fff;
+  padding: 9px 20px;
+}
+.btnPrimary:hover:not(:disabled) { background: #3a66df; }
+
+.btnGhost {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 9px 20px;
+}
+.btnGhost:hover { background: var(--bg); }
+
+.sectionTitle {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 0 12px;
+  color: var(--text-primary);
+}
+
+.actionRow {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.actionInput {
+  width: 120px !important;
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+}
+
+.btnApprove {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.btnApprove:hover { background: #bbf7d0; }
+
+.btnReject {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.btnReject:hover { background: #fecaca; }
+
+.tagRole {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.tagAdmin    { background: #ede9fe; color: #5b21b6; }
+.tagManager  { background: #dbeafe; color: #1e40af; }
+.tagEmployee { background: #d1fae5; color: #065f46; }
