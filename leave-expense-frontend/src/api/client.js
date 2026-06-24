@@ -1,5 +1,5 @@
 // const BASE = '/api'
-const BASE = 'https://leave-expense-backend.onrender.com'
+const BASE = 'https://leave-expense-backend.onrender.com/api'
 
 export async function apiFetch(path, options = {}, token = null) {
   const headers = { 'Content-Type': 'application/json' }
